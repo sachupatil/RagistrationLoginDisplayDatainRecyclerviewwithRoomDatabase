@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "473242902135",
+    "project_id": "metrozhospitalapps",
+    "storage_bucket": "metrozhospitalapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473242902135:android:4dde94b03e3f2de69ab072",
+        "android_client_info": {
+          "package_name": "com.example.roomdatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473242902135-0o9t6m85iu7fd6rm8lprvqj93ka5s9i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8wMyB-KwNorsyE--ka9BbR4bpD9TNbOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473242902135-0o9t6m85iu7fd6rm8lprvqj93ka5s9i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

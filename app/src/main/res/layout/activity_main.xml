@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@color/purple_200" />
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:layout_marginLeft="300dp"
+        android:text="Logout"
+        android:textAllCaps="true"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+<!--    <TextView-->
+<!--        android:id="@+id/textViewRegister"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:fontFamily="sans-serif"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:text="Petient Details"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="@color/colorPrimaryDark"-->
+<!--        android:textSize="13dp"-->
+<!--        android:textStyle="bold" />-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:id="@+id/name"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_background"
+        android:hint="Petient Name"
+        android:padding="20sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:id="@+id/phone"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_background"
+        android:hint="Petient Deases"
+        android:padding="20sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:id="@+id/address"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_background"
+        android:hint="petient Address"
+        android:padding="20sp"
+        android:singleLine="true" />
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        android:id="@+id/btn_save"
+        android:background="@drawable/button"
+        android:text="SAVE"
+        android:paddingHorizontal="30sp"
+        android:textColor="@color/purple_200"
+        android:textSize="16sp" />
+
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginTop="30sp"-->
+<!--        android:id="@+id/btn_getData"-->
+<!--        android:paddingHorizontal="30sp"-->
+<!--        android:background="@color/colorPrimaryDark"-->
+<!--        android:text="GET DATA"-->
+<!--        android:textColor="#fff"-->
+<!--        android:textSize="16sp" />-->
+
+</LinearLayout>
